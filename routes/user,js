@@ -1,5 +1,5 @@
 import express from 'express';
-import{register,login,logout,gerMyProfile} from '../controller/user.js'
+import{register,login,logout,getMyProfile} from '../controller/user.js'
 const router =  express()
 router.post('/new',register)
 router.post('/login',login)

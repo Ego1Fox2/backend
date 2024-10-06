@@ -25,9 +25,7 @@ const schema =new mongoose.Schema({
 })
 
 
-import mongoose from "mongoose";
-Const schema = new mongoose.schema({...
 
-})
+
 const user = mongoose.Model('user',schema)
 export default user

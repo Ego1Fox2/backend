@@ -22,7 +22,7 @@
 
 
 
-mongodb+srv://rasabdul49:<db_password>@cluster0.ued1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+//mongodb+srv://rasabdul49:<db_password>@cluster0.ued1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 //dYvhImEIIKEBko0r
 
 import { type } from 'express/lib/response';
@@ -52,9 +52,9 @@ const schema = new mongoose.schema({
     }
 })
 
-import mongoose from 'mongoose';
-const schema = new mongoose.Schema({...
-})
+
+
+
 
 
 const Task = mongoose.Model('task',schema)

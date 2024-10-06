@@ -23,47 +23,6 @@ app.listen(PORT,()=>{
 
 
 
-//hello
-
-
-
-
-const PORT = 5000 || 3000
-
-
-mongoose.connect('mongodb.//localhost:27017/super',{
-    useNewUrlParser:true,
-    NewUnifiedTopology:true
-}).then(()=>{
-  console.log('data base is  connented',console.error);
-  
-}).catch((error)=>{
-  console.log('data base is not connected',error);
-});
-app.get('/',funtion(req,res) {
-  res.send('hello world')
-})
-app.listen(Port,()=>{
-  console.log(`my first server is running at http//localhost:${PORT}`);
-})
-
-
-
-mongoose.connect('mongodb://localhost:27017',{dbName:"super"}).then(()=>{
-  console.log('data base is connected')
-
-    }).catch(()=>{
-  console.lod ('data base is not connected')
-});
-    
-
-app.get('/', funtion(req,res) {
-    res.send('hello world')
-});
-
-app.listen(PORT,()=>{
-  console.log(`my first server is running http://localhost:${PORT}`)
-})
 
 
 
